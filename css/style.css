@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  overflow: none;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+div {
+  background-color: #696969;
+  border: 4px solid black;
+  margin: 4%;
+
+}
+
+.loremipsum {  
+  width: 90%;
+  height: auto;
+  margin: 3%;
+  padding: 1%;
+  font-family: Comic Sans MS;
+  color: black;
+  overflow: none;
+}
+
+.boxheading {
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+  font-size: 130%;
+  font-weight: bold;
+  width: 90px;
+  padding: 3.5px;
+  text-align: center;
+  margin: 0;
+  float: right;
+}
+
+
+.brownbear{
+  background-color: #2f4f4f;
+}
+.blackbear{
+  background-color: #228b22;
+}
+.polarbear{
+  background-color: #f0e68c;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    margin: auto;
+    float: left;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    margin: auto;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    margin: auto;
+    float: left;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    margin: auto;
+    float: left;
+  }
+}
+
