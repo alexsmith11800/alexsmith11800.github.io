@@ -1,0 +1,57 @@
+body {
+	font-style: "Comic Sans Ms";
+	color: black;
+}
+
+h1 {
+	box-sizing: border-box;
+	font-family: "Comic Sans Ms";
+	font-weight: bold;
+	color: black;
+}
+
+button {
+	clear: none;
+}
+
+p {
+	text-align: center;
+	font-family: "Comic Sans Ms"
+	font-size: 120%;
+	border-width: 2px;
+}
+
+
+
+h2 {
+	text-align: center;
+	font-family: "Comic Sans Ms";
+	color: black;
+
+}
+
+#header-nav {
+	background-color: lightgray;
+	border-radius: 0;
+	border-color: black;
+	border-width: 3px
+}
+
+#loremipsum {
+	margin: 25px 5px;
+	background-color: lightgray;
+	padding: 5px;
+	border-color: black;
+	border-width: 2.5px;
+}
+
+#nav-list p {
+	text-align: center;
+	font-family: "Comic Sans Ms"
+	font-size: 120%;
+
+}
+
+.menuitem {
+
+}
